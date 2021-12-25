@@ -1,6 +1,6 @@
 the same as https://github.com/Spicadox/TwitCastingDownloader , except it automatically converts all the downloaded mp4 files into .opus<br>
-you must have:
--every req from here:<br> -https://github.com/Spicadox/TwitCastingDownloader<br>
+you must have:<br>
+-every req from here: https://github.com/Spicadox/TwitCastingDownloader<br>
 -send2trash installed (pip install it)<br>
 -ffmpeg (in PATH)<br>
 loops over all the mp4s in a directory, converts them one at a time to .opus and then sends them to the trash can. you can obviously just replace the send2trash part with something to delete them outright.<br>
